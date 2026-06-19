@@ -78,7 +78,7 @@ axi5-uvm-vip/
 ## Quick start
 
 ```bash
-git clone https://github.com/your-org/axi5-uvm-vip.git
+git clone https://github.com/kaushikvelapareddy-vlsi/AXI5_UVM_VIP
 cd axi5-uvm-vip
 
 # Questa / ModelSim
