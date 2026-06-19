@@ -36,8 +36,6 @@ axi5-uvm-vip/
 ├── Makefile                  # questa/vcs/xcelium/lint targets
 ├── .gitignore
 ├── .github/workflows/ci.yml  # Verilator lint + structure check
-├── docs/
-│   └── ARCHITECTURE.md
 ├── rtl/
 │   └── axi5_slave_mem.sv      # simple AXI5 slave memory (DUT)
 ├── sim/
@@ -100,8 +98,7 @@ All three flows compile the same `sim/filelist.f` and run the UVM test named by
 ## ARM specification compliance
 
 This VIP targets the **AMBA AXI and ACE Protocol Specification, AXI5 (IHI
-0022H)**. Compliance scope and known limitations are documented in
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md#compliance-matrix). The protocol
+0022H)**.The protocol
 checker encodes the normative rules; the coverage model targets the
 specification's transaction space. Cache-coherency (ACE5) snoop channels are
 out of scope for this AXI5-Full release and are tracked as a roadmap item.
